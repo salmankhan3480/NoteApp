@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Home_Fragment">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="120dp"
+        android:id="@+id/filterAll"
+        android:layout_height="wrap_content"
+        android:text=" All Notes"
+        android:layout_marginHorizontal="5dp"
+        android:textColor="@color/red"
+        android:background="@drawable/redfilter"
+        android:textSize="25dp"
+
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/filterHigh"
+        android:layout_height="wrap_content"
+        android:text="  High "
+        android:layout_marginHorizontal="5dp"
+        android:textColor="@color/red"
+        android:background="@drawable/redfilter"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:id="@+id/filtermedium"
+        android:layout_height="wrap_content"
+        android:text=" Medium"
+        android:layout_marginHorizontal="5dp"
+        android:textColor="@color/yallow"
+        android:background="@drawable/redfilter"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/filterlow"
+        android:layout_height="wrap_content"
+        android:text=" Low   "
+        android:layout_marginHorizontal="5dp"
+        android:textColor="@color/green"
+        android:background="@drawable/redfilter"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
+
+
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:id="@+id/reyclerview"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="26dp"
+        android:backgroundTint="@color/red"
+        android:src="@drawable/check" />
+
+
+</LinearLayout>

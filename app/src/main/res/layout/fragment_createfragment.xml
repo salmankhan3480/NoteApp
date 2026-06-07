@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Createfragment">
+
+
+
+
+
+    <EditText
+        android:id="@+id/ed_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittextshpe"
+        android:hint=" Title..."
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/ed_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:background="@drawable/edittextshpe"
+        android:hint=" subtitle..."
+        android:textColorHint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/p_red"
+            android:layout_width="25dp"
+
+            android:layout_height="25dp"
+            android:background="@drawable/redcolorshape"
+            android:layout_marginHorizontal="5dp"/>
+
+        <ImageView
+            android:id="@+id/p_yallow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/yallowdot"
+            />
+        <ImageView
+            android:id="@+id/p_green"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/greendots"
+            android:layout_marginHorizontal="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_notes"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="40dp"
+        android:background="@drawable/edittextshpe"
+        android:hint=" Notes"
+        android:textColorHint="@color/white"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/btnsave"
+        android:backgroundTint="@color/red"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="26dp"
+        android:src="@drawable/check"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
